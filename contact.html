@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AfriConnect Summit 2026 - Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="navbar-brand">AfriConnect <span>Summit</span> 2026</a>
+            <ul class="navbar-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="programme.html">Programme</a></li>
+                <li><a href="intervenants.html">Intervenants</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><button class="theme-toggle" id="themeToggle">🌙</button></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <p class="breadcrumb"><a href="index.html">Accueil</a> &gt; Contact</p>
+                <h1>Inscription & <span>Contact</span></h1>
+                <p>Rejoignez-nous pour cette édition exceptionnelle</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Nom complet</label>
+                                <input type="text" id="name" required>
+                                <span class="error-message">Veuillez entrer votre nom</span>
+                            </div>
+                            <!-- Ajouter les autres champs -->
+                            <button type="submit" class="btn btn-primary">S'inscrire</button>
+                        </form>
+                        <div class="success-message" id="successMessage">✅ Inscription réussie !</div>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Informations</h3>
+                        <p><i class="bi bi-geo-alt"></i> Dakar, Sénégal</p>
+                        <p><i class="bi bi-calendar"></i> 15-17 Octobre 2026</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>...</footer>
+    <button class="back-to-top" id="backToTop"><i class="bi bi-chevron-up"></i></button>
+    <script src="js/main.js"></script>
+</body>
+</html>

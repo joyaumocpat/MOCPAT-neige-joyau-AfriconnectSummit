@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AfriConnect Summit 2026 - Programme</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- NAVBAR (copier la même que index.html mais sans active sur Accueil) -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="navbar-brand">AfriConnect <span>Summit</span> 2026</a>
+            <ul class="navbar-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="programme.html" class="active">Programme</a></li>
+                <li><a href="intervenants.html">Intervenants</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button class="theme-toggle" id="themeToggle">🌙</button></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <p class="breadcrumb"><a href="index.html">Accueil</a> &gt; Programme</p>
+                <h1>Le <span>programme</span> 2026</h1>
+                <p>3 jours pour transformer l'Afrique par la technologie</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="tabs">
+                    <button class="tab-btn active" data-day="day1">📅 Jour 1</button>
+                    <button class="tab-btn" data-day="day2">📅 Jour 2</button>
+                    <button class="tab-btn" data-day="day3">📅 Jour 3</button>
+                </div>
+                <div class="tab-content active" id="day1">
+                    <h3>Jour 1 - Innovation & Technologies</h3>
+                    <table class="schedule-table">
+                        <thead><tr><th>Heure</th><th>Session</th><th>Intervenant</th><th>Salle</th></tr></thead>
+                        <tbody>
+                            <tr><td>09:00 - 09:30</td><td>Ouverture</td><td>Comité</td><td>Grande salle</td></tr>
+                            <!-- Ajouter 4 autres sessions -->
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Ajouter day2 et day3 -->
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER (identique à index.html) -->
+    <footer>...</footer>
+    <button class="back-to-top" id="backToTop"><i class="bi bi-chevron-up"></i></button>
+    <script src="js/main.js"></script>
+</body>
+</html>
